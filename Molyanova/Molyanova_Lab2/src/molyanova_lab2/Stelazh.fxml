@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="238.0" prefWidth="278.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="molyanova_lab2.Controller_Stelazh">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="bnExit" layoutX="216.0" layoutY="181.0" onAction="#exitButtonAction" text="Exit" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="133.0" layoutY="14.0" prefHeight="31.0" prefWidth="118.0" text="Table Stelazh" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfam" editable="false" layoutX="132.0" layoutY="62.0" prefHeight="25.0" prefWidth="128.0" />
+      <Label layoutX="24.0" layoutY="59.0" prefHeight="31.0" prefWidth="92.0" text="Id_Stelazh" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="98.0" prefHeight="31.0" prefWidth="100.0" text="NomPolki" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfam1" editable="false" layoutX="132.0" layoutY="101.0" prefHeight="25.0" prefWidth="128.0" />
+      <Button fx:id="bnPrev" layoutX="24.0" layoutY="181.0" onAction="#prevButtonAction" text="&lt;Prev">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="bnNext" layoutX="85.0" layoutY="181.0" onAction="#nextButtonAction" text="Next&gt;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="button251" layoutX="147.0" layoutY="181.0" onAction="#nextButtonAction" prefHeight="31.0" prefWidth="69.0" text="Delete" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="24.0" layoutY="137.0" prefHeight="31.0" prefWidth="100.0" text="Bukva" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfam2" editable="false" layoutX="131.0" layoutY="140.0" prefHeight="25.0" prefWidth="69.0" />
+    </children>
+</AnchorPane>

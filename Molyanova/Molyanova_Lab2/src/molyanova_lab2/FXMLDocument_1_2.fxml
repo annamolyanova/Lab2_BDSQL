@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="189.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="molyanova_lab2.Controller_Izdatel">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="button25" layoutX="326.0" layoutY="140.0" onAction="#ВЫХОД" text="Exit" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="133.0" layoutY="14.0" prefHeight="31.0" prefWidth="118.0" text="Table Izdatel" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfam" layoutX="132.0" layoutY="62.0" prefHeight="25.0" prefWidth="128.0" />
+      <Label layoutX="24.0" layoutY="59.0" prefHeight="31.0" prefWidth="92.0" text="Id_Izdatel" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="98.0" prefHeight="31.0" prefWidth="84.0" text="Nazvanie" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfam1" layoutX="132.0" layoutY="101.0" prefHeight="25.0" prefWidth="238.0" />
+      <Button fx:id="button1" layoutX="24.0" layoutY="140.0" onAction="#handleButtonAction" text="&lt;Prev">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="button" layoutX="101.0" layoutY="140.0" onAction="#handleButtonAction" text="Next&gt;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="button251" layoutX="251.0" layoutY="140.0" onAction="#handleButtonAction" text="Delete" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
